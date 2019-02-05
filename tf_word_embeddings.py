@@ -32,7 +32,7 @@ display_step = 10000
 eval_step = 200000
 
 # Evaluation Parameters
-eval_words = ['five', 'of', 'going', 'hardware', 'american', 'britain']
+eval_words = [b'five', b'of', b'going', b'hardware', b'american', b'britain']
 
 # Word2Vec Parameters
 embedding_size = 200 # Dimension of the embedding vector
@@ -158,6 +158,7 @@ cosine_sim_op = tf.matmul(X_embed_norm, embedding_norm, transpose_b=True)
 
 # Initialize the variables (i.e. assign their default value)
 init = tf.global_variables_initializer()
+
 
 with tf.Session() as sess:
 
