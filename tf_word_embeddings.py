@@ -3,15 +3,6 @@
 Implement Word2Vec algorithm to compute vector representations of words.
 This example is using a small chunk of Wikipedia articles to train from.
 
-References:
-    - Mikolov, Tomas et al. "Efficient Estimation of Word Representations
-    in Vector Space.", 2013.
-
-Links:
-    - [Word2Vec] https://arxiv.org/pdf/1301.3781.pdf
-
-Author: Aymeric Damien
-Project: https://github.com/aymericdamien/TensorFlow-Examples/
 """
 from __future__ import division, print_function, absolute_import
 
